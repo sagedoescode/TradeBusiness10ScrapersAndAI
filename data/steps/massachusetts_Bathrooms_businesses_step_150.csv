@@ -1,0 +1,55 @@
+name,rating,reviews_count,category,address,location,hours,website,plus_code,phone
+Lowe's Home Improvement,4.1,739,Home improvement store,"282 Russell St, Hadley, MA 01035",N/A,N/A,lowes.com,"9C3P+JG Hadley, Massachusetts",(413) 588-0270
+Public Restroom,4.0,4,Public bathroom,"Westfield, MA 01085",Located in: Stanley Park,N/A,stanleypark.org,"46C8+WF Westfield, Massachusetts",N/A
+Public Restroom,4.0,N/A,Public bathroom,"Westfield, MA 01085",Located in: Stanley Park,N/A,N/A,"46F6+Q5 Westfield, Massachusetts",(413) 568-9312
+Vista Baths,4.8,32,Bathroom remodeler,"2097 Riverdale St, West Springfield, MA 01089",N/A,N/A,vistabaths.com,"5968+4V West Springfield, Massachusetts",(413) 350-1151
+Living Baths,4.9,46,Bathroom remodeler,"55 Circuit Ave, West Springfield, MA 01089",N/A,N/A,livingbaths.com,"39VQ+RQ West Springfield, Massachusetts",(413) 299-2440
+Valley Kitchens,5.0,8,Cabinet store,"51 A1 Holyoke St, Easthampton, MA 01027",N/A,N/A,vkitchens.com,"785Q+VV Easthampton, Massachusetts",(413) 527-1500
+Sink & Spout,3.9,8,Bathroom supply store,"168 Industrial Dr #2, Northampton, MA 01060",N/A,N/A,degreesofcomfort.com,"89P8+7R Northampton, Massachusetts",(413) 247-5311
+"Affordable Baths, Inc.",4.5,31,Bathroom remodeler,"357 Cottage St, Springfield, MA 01104",N/A,N/A,affordablebaths.com,"4FV5+9R Springfield, Massachusetts",(413) 209-3797
+F.W. Webb Company - Westfield,4.7,3,Plumbing supply store,"199 Servistar Industrial Way, Westfield, MA 01085",N/A,N/A,fwwebb.com,"5755+6M Westfield, Massachusetts",(413) 409-5400
+Precision Kitchen & Bath,5.0,7,Remodeler,"36 N Ramah Cir Suite 104, Agawam, MA 01001",N/A,N/A,precisionkitchenbathllc.com,"39P9+WC Agawam, Massachusetts",(413) 977-2830
+Inaugural Home Improvement,4.9,102,Bathroom remodeler,"151 East St, Chicopee, MA 01020",N/A,N/A,inauguralhomeimprovement.com,"5C4F+3M Chicopee, Massachusetts",(413) 345-6905
+Sink & Spout,4.1,20,Bathroom supply store,"1060 Memorial Ave, West Springfield, MA 01089",N/A,N/A,sinkandspout.com,"39VM+QR West Springfield, Massachusetts",(413) 264-2770
+Frank Webb Home,3.8,4,Bathroom supply store,"135 Industrial Dr, Northampton, MA 01060",N/A,N/A,frankwebb.com,"89P9+CC Northampton, Massachusetts",(413) 586-8003
+A Clarke Design Studio,5.0,7,Showroom,"1 Court St, Westfield, MA 01085",Located in: Greylock Insurance Agency,N/A,aclarkedesignstudio.com,"4792+W5 Westfield, Massachusetts",(413) 977-1384
+Kitchens Direct,4.8,8,Kitchen remodeler,"945 Southampton Rd, Westfield, MA 01085",N/A,N/A,kitchensdirectmass.com,"57CF+VC Westfield, Massachusetts",(413) 221-3026
+Paradis Remodeling and Building,5.0,N/A,Contractor,"164 Valley Rd, Southampton, MA 01073",N/A,N/A,paradisremodelingandbuilding.com,"57W4+XP Southampton, Massachusetts",(413) 535-7006
+Valley Home Improvement,4.6,31,Contractor,"340 Riverside Dr, Northampton, MA 01062",N/A,N/A,valleyhomeimprovement.com,"88CM+8Q Northampton, Massachusetts",(413) 584-7522
+The Granite Group,4.9,7,Plumbing supply store,"8 Coleman Ave, Westfield, MA 01085",N/A,N/A,premiersupplygroup.com,"4773+7W Westfield, Massachusetts",(413) 562-1046
+Kitchens & Baths By Curio,4.8,24,Kitchen remodeler,"1045 Boston Rd, Springfield, MA 01119",N/A,N/A,kitchensbycurio.com,"4FQR+96 Springfield, Massachusetts",(413) 783-0913
+Ideal Kitchens Home Improvement Inc,4.5,63,Bathroom remodeler,"838 Grattan St, Chicopee, MA 01020",N/A,N/A,idealkitchens.us,"59GX+XF Chicopee, Massachusetts",(413) 532-2253
+Top Choice Home Improvement LLC,N/A,N/A,Kitchen remodeler,"1167 Morgan Rd, West Springfield, MA 01089",N/A,N/A,N/A,"48PM+HH West Springfield, Massachusetts",(413) 330-9883
+Berkshire Kitchens & Baths,N/A,N/A,Kitchen remodeler,"8 Evergreen Terrace, Southwick, MA 01077",N/A,N/A,N/A,"364F+2X Southwick, Massachusetts",(413) 569-6048
+American Way Home Improvement Co,4.3,6,Roofing contractor,"613 Montgomery Rd, Westfield, MA 01085",N/A,N/A,N/A,"56HF+5F Westfield, Massachusetts",(413) 569-5044
+Betts Plumbing & Heating Supply Inc.,4.8,26,Plumbing supply store,"14 Coleman Ave, Westfield, MA 01085",N/A,N/A,bettsplumbing.com,"4763+VW Westfield, Massachusetts",(413) 568-3308
+A. Clarke Construction,5.0,37,Contractor,"1 Court St, Westfield, MA 01085",N/A,N/A,aclarkeconstruction.com,"4792+W5 Westfield, Massachusetts",(413) 977-3152
+The Granite Group,4.5,10,Plumbing supply store,"168 Industrial Dr #3, Northampton, MA 01060",N/A,N/A,premiersupplygroup.com,"89P8+9W Northampton, Massachusetts",(413) 584-4250
+Kitchen & Bath Design Center,3.5,13,Cabinet store,"1036 Suffield St, Agawam, MA 01001",N/A,N/A,cabinetstogranite.com,"3938+M7 Agawam, Massachusetts",(413) 786-8500
+The Yankee Craftsman,N/A,N/A,General contractor,"1603 Russell Rd, Montgomery, MA 01085",N/A,N/A,theyankeecraftsman.com,"652M+H4 Montgomery, Massachusetts",(413) 896-5073
+Vista Home Improvement,4.7,467,Contractor,"2097 Riverdale St, West Springfield, MA 01089",N/A,N/A,vistahomeimprovement.com,"5968+4V West Springfield, Massachusetts",(413) 350-1219
+"Boulanger's Plumbing & Heating, Inc.",4.1,95,Plumber,"373 Main St, Easthampton, MA 01027",N/A,N/A,boulangersplumbing.com,"7846+X7 Easthampton, Massachusetts",(413) 527-3240
+Kitchens of Distinction,4.1,14,Kitchen remodeler,"599 College Hwy, Southwick, MA 01077",N/A,N/A,kodkitchens.com,"367M+3R Southwick, Massachusetts",(413) 569-1100
+VT Tiles,5.0,17,Tile contractor,"37 Garden St, West Springfield, MA 01089",N/A,N/A,vttiles.com,"495J+W4 West Springfield, Massachusetts",(413) 374-4112
+The Home Depot,4.3,797,Home improvement store,"514 E Main St, Westfield, MA 01085",N/A,Open ⋅ Closes 10PMSee more hours,homedepot.com,"477H+9J Westfield, Massachusetts",(413) 564-0680
+Martins Floor Covering,4.4,21,Wood floor installation service,"501 Southampton Rd, Westfield, MA 01085",N/A,N/A,martinsfloorcovering.com,"574F+PJ Westfield, Massachusetts",(413) 568-4460
+"Stone and Oak Construction, LLC",5.0,11,General contractor,"51 Meadowbrook Ave, West Springfield, MA 01089",N/A,N/A,N/A,"483P+55 West Springfield, Massachusetts",(413) 206-9593
+Aubuchon Hardware,4.7,190,Hardware store,"168 Northampton St, Easthampton, MA 01027",N/A,N/A,hardwarestore.com,"78MM+C2 Easthampton, Massachusetts",(413) 529-9494
+Rocky's Ace Hardware,4.4,351,Hardware store,"2 Free St, Westfield, MA 01085",N/A,N/A,rockys.com,"47C3+M6 Westfield, Massachusetts",(413) 568-9251
+Mr. Rooter Plumbing of Hampden & Hampshire Counties,4.7,494,Plumber,"845 Airport Industrial Park Rd, Westfield, MA 01085",N/A,N/A,mrrooter.com,"57HV+H9 Westfield, Massachusetts",(413) 437-0329
+Trustees' Office Bathrooms,N/A,N/A,Public wheelchair-accessible bathroom,"1843 W Housatonic St, Pittsfield, MA 01201",Located in: Hancock Shaker Village,N/A,N/A,"CMJ7+CW Pittsfield, Massachusetts",N/A
+Angelos Plumb & Heating,5.0,N/A,Plumber,"327 Dewey St, West Springfield, MA 01089",N/A,N/A,N/A,"488C+MM West Springfield, Massachusetts",(413) 781-7668
+A R Zukowski Plumbing & Heating,4.4,28,Heating contractor,"94 High Meadow Dr, West Springfield, MA 01089",N/A,N/A,N/A,"48JJ+FJ West Springfield, Massachusetts",(413) 733-6716
+Hometown Structures,5.0,128,Construction company,"627 Southampton Rd, Westfield, MA 01085",N/A,N/A,hometownstructures.com,"576G+93 Westfield, Massachusetts",(413) 562-7171
+Hampton Flooring Center,4.4,28,Flooring store,"250 Northampton St, Easthampton, MA 01027",N/A,N/A,hamptonflooringcenter.com,"78QQ+JC Easthampton, Massachusetts",(413) 527-5279
+Best Tile Springfield,4.6,47,Tile store,"1102 Riverdale St, West Springfield, MA 01089",N/A,Open ⋅ Closes 5PMSee more hours,besttile.com,"49MF+P9 West Springfield, Massachusetts",(413) 732-4191
+Stone Soup Concrete Inc,3.7,3,Countertop store,"122 Pleasant St Suite 101, Easthampton, MA 01027",Located in: Eastworks,N/A,stonesoupconcrete.com,"78FQ+GC Easthampton, Massachusetts",(413) 203-5600
+C&M Finishes LLC,5.0,N/A,General contractor,"Russellville Rd, Westfield, MA 01085",N/A,N/A,cmfinishesllc.com,"56QQ+9F Westfield, Massachusetts",(413) 579-7907
+Bowlen's Carpentry,5.0,10,Carpenter,"19 Overlook Dr, West Springfield, MA 01089",N/A,N/A,bowlenscarpentry.com,"5944+3C West Springfield, Massachusetts",(413) 348-0537
+"Keith G. Roy Construction, Inc.",4.1,17,General contractor,"54 Mainline Dr, Westfield, MA 01085",N/A,N/A,kgroyconstruction.com,"4769+QR Westfield, Massachusetts",(413) 485-7533
+World Wide Flooring LLC,5.0,20,Tile contractor,"54 Moore St, Agawam, MA 01001",N/A,N/A,N/A,N/A,(413) 285-5414
+Wagner Rug & Flooring,4.8,49,Flooring store,"302 E Main St, Westfield, MA 01085",N/A,N/A,wagnerrug.com,"477F+MM Westfield, Massachusetts",(413) 568-0520
+World Wide Flooring LLC,5.0,20,Tile contractor,"54 Moore St, Agawam, MA 01001",N/A,N/A,N/A,N/A,(413) 285-5414
+Wagner Rug & Flooring,4.8,49,Flooring store,"302 E Main St, Westfield, MA 01085",N/A,N/A,wagnerrug.com,"477F+MM Westfield, Massachusetts",(413) 568-0520
+PRO VANITY LLC,5.0,12,Furniture store,"50 Holyoke St D 371, Holyoke, MA 01040",N/A,N/A,N/A,"5995+3F Holyoke, Massachusetts",(413) 409-8186
+"Chagnon Building & Remodeling, LLC",4.3,24,Contractor,"91 Stockbridge St, Hadley, MA 01035",N/A,N/A,chagnon-br.com,"9CQX+HG Hadley, Massachusetts",(413) 259-6785

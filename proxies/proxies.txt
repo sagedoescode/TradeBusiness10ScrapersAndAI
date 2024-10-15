@@ -1,0 +1,17 @@
+172.93.203.155:6721:sagedoes:code123
+67.227.35.238:5568:sagedoes:code123
+38.135.233.12:6587:sagedoes:code123
+23.94.39.74:9357:sagedoes:code123
+23.95.22.178:2231:sagedoes:code123
+64.44.18.19:2865:white:code123
+172.93.203.106:2131:white:code123
+216.10.31.237:3636:white:code123
+173.211.31.97:7352:white:code123
+67.227.35.58:6253:white:code123
+172.93.206.161:6706:white:code123
+23.95.22.135:5455:white:code123
+45.58.63.150:3307:sageelite:elitedev123
+216.10.31.168:3153:sageelite:elitedev123
+67.227.35.199:6896:sageelite:elitedev123
+38.135.233.127:5739:sageelite:elitedev123
+172.93.206.75:4948:sageelite:elitedev123

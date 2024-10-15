@@ -1,0 +1,45 @@
+name,rating,reviews_count,category,address,location,hours,website,plus_code,phone
+Carlos Vinyl Siding,4.2,5,Siding contractor,"15 Townsend St, New Bedford, MA 02746",N/A,N/A,N/A,"M345+5C New Bedford, Massachusetts",(508) 997-2540
+Cottrell Bros Inc.,4.3,11,Siding contractor,"360 Main St, Fairhaven, MA 02719",N/A,N/A,N/A,"M34R+WF Fairhaven, Massachusetts",(508) 999-1598
+Inove construction,5.0,6,Siding contractor,"113 Dover St #3fl, Fall River, MA 02721",N/A,N/A,N/A,"MRRW+V8 Fall River, Massachusetts",(774) 602-2977
+New England Star remodeling,3.8,5,Siding contractor,"239 Whipple St, Fall River, MA 02721",N/A,N/A,N/A,"MRVQ+GQ Fall River, Massachusetts",(401) 579-3535
+"Care Free Homes, Inc.",4.9,141,Roofing contractor,"239 Huttleston Ave, Fairhaven, MA 02719",N/A,N/A,carefreehomescompany.com,"J4RF+H3 Fairhaven, Massachusetts",(508) 997-1111
+Couto Construction,4.8,1368,Roofing contractor,"24 Ernest St, New Bedford, MA 02745",N/A,N/A,coutoconstruction.com,"M39G+R7 New Bedford, Massachusetts",(508) 501-8278
+Furty Construction,5.0,10,Roofing contractor,"364 Birch St, Fall River, MA 02724",N/A,N/A,furtyconstruction.com,"MRP9+4G Fall River, Massachusetts",(508) 491-8825
+ABC Supply Co. Inc.,4.3,68,Roofing supply store,"500 Rodman St, Fall River, MA 02721",N/A,N/A,abcsupply.com,"MRVX+PP Fall River, Massachusetts",(508) 676-6746
+Sam Karam & Sons General Contractors Inc,4.7,52,General contractor,"6A Hathaway Rd, Dartmouth, MA 02747",N/A,N/A,samkaramandsons.com,"J2R9+29 Dartmouth, Massachusetts",(508) 997-4746
+Keith & David Home Improvement,4.5,15,Roofing contractor,"32 Bridge St, Fairhaven, MA 02719",N/A,N/A,N/A,"J3RW+P3 Fairhaven, Massachusetts",(508) 207-0497
+Toledo Contracting,4.3,20,Roofing contractor,"875 State Rd Unit 11 - 134, Westport, MA 02790",N/A,N/A,toledocontractingco.com,"MW2J+7V Westport, Massachusetts",(508) 264-5125
+Marshall Building & Remodeling,4.8,20,Roofing contractor,"9 Middle St, South Dartmouth, MA 02748",N/A,N/A,marshallbuildingandremodeling.com,"H3Q6+62 South Dartmouth, Dartmouth, MA",(508) 979-8984
+"Centurion Roofing Systems, Inc.",5.0,16,Roofing contractor,"1009 Plymouth Ave, Fall River, MA 02721",N/A,N/A,N/A,"MRQQ+QX Fall River, Massachusetts",(508) 242-1597
+Renco Home Improvements,N/A,N/A,Siding contractor,"326 N Main St, Fall River, MA 02720",N/A,N/A,N/A,"PR4V+HM Fall River, Massachusetts",(508) 678-2122
+re:fab,4.8,44,Painter,"1167-1177 Ashley Blvd, New Bedford, MA 02745",N/A,N/A,refabpro.com,"M3V7+2W New Bedford, Massachusetts",(833) 807-3322
+Brother’s Siding & Corporate Inc,5.0,9,Carpenter,"192 Jepson St, Fall River, MA 02723",N/A,N/A,N/A,"MVMF+7C Fall River, Massachusetts",(978) 876-5313
+Vaz Construction Inc.,4.3,64,Roofing contractor,"89 Howard Ave, New Bedford, MA 02745",N/A,N/A,vazconstructioninc.com,"M3GH+HF New Bedford, Massachusetts",(774) 328-9950
+Vaz Construction Inc.,4.3,64,Roofing contractor,"89 Howard Ave, New Bedford, MA 02745",N/A,N/A,vazconstructioninc.com,"M3GH+HF New Bedford, Massachusetts",(774) 328-9950
+Herbert M Dias Construction,3.3,3,Siding contractor,"34 Rhinecliffe Rd, Swansea, MA 02777",N/A,N/A,N/A,"PRVH+3M Swansea, Massachusetts",(508) 677-0228
+Hiscock Construction,4.6,36,General contractor,"95 Albion St, Fall River, MA 02723",N/A,N/A,weputcustomersfirst.com,"MVW8+HM Fall River, Massachusetts",(774) 263-8284
+Dave Sylvia Contracting LLC,N/A,N/A,Siding contractor,"Fall River, MA 02723",N/A,N/A,N/A,"MVQF+W6 Fall River, Massachusetts",(508) 742-8172
+GFB General Contracting,N/A,N/A,Siding contractor,"1299 N Hixville Rd, Dartmouth, MA 02747",N/A,N/A,N/A,"MXQ8+49 Dartmouth, Massachusetts",(508) 493-8295
+Pinto Home Improvement Corp,4.1,14,Contractor,"3 Indian Way, Fairhaven, MA 02719",N/A,N/A,pintohomeimprovement.us,"J4FM+Q8 Fairhaven, Massachusetts",(508) 525-7229
+LePage and Sons Roofing LLC,4.5,59,Roofing contractor,"953 Shawmut Ave, New Bedford, MA 02746",N/A,N/A,lepageandsonsroofing.com,"M352+RX New Bedford, Massachusetts",(508) 295-6483
+Heritage Wholesalers,4.9,13,Roofing supply store,"975 Reed Rd N, Dartmouth, MA 02747",N/A,N/A,heritagewholesalers.com,"MX77+4R Dartmouth, Massachusetts",(508) 994-7663
+Cape Cod Roofing and Siding,4.1,28,Roofing contractor,"111 Hathaway St, Wareham, MA 02571",N/A,N/A,capecodroof.com,"Q725+VM Wareham, Massachusetts",(508) 295-3562
+The Home Depot,4.0,1384,Home improvement store,"535 Grand Army of the Republic Hwy, Somerset, MA 02726",N/A,Open ⋅ Closes 10PMSee more hours,homedepot.com,"PRHJ+4V Somerset, Massachusetts",(508) 646-9053
+The Home Depot,4.1,1171,Garden center,"470 State Rd, North Dartmouth, MA 02747",N/A,Open ⋅ Closes 10PMSee more hours,homedepot.com,"JXVX+9H North Dartmouth, Dartmouth, MA",(508) 997-9600
+The Home Depot,4.1,1171,Garden center,"470 State Rd, North Dartmouth, MA 02747",N/A,Open ⋅ Closes 10PMSee more hours,homedepot.com,"JXVX+9H North Dartmouth, Dartmouth, MA",(508) 997-9600
+AMV Remodeling Services Inc.,5.0,4,Remodeler,"44 Ralph Chapman Rd, Swansea, MA 02777",N/A,N/A,amvremodelingservices.com,"PRM4+PQ Swansea, Massachusetts",(888) 268-7365
+Timco Builders Inc,5.0,7,Construction company,"27 Courtney St #10, Fall River, MA 02720",Located in: Royal Crest Estates Fall River,N/A,timcobuilders.com,"PVMG+4H Fall River, Massachusetts",(508) 326-8607
+Silva’s Paintverse LLC,5.0,30,Painter,"324 Brock Ave, New Bedford, MA 02744",N/A,N/A,silvaspaintverse.com,"J33R+67 New Bedford, Massachusetts",(781) 827-1282
+Koopman Lumber Company Fairhaven,4.4,91,Hardware store,"120 Alden Rd, Fairhaven, MA 02719",N/A,N/A,koopmanlumber.com,"J4X6+49 Fairhaven, Massachusetts",(508) 993-2611
+Koopman Lumber Company Fairhaven,4.4,91,Hardware store,"120 Alden Rd, Fairhaven, MA 02719",N/A,N/A,koopmanlumber.com,"J4X6+49 Fairhaven, Massachusetts",(508) 993-2611
+Boss roofing LLC,5.0,9,Roofing contractor,"78 Mill St, New Bedford, MA 02740",N/A,N/A,bossroofingma.com,"J3QC+56 New Bedford, Massachusetts",(774) 216-6080
+Lee Poirier Siding & Window,5.0,N/A,Siding contractor,"22 Roy Ave, Attleboro, MA 02703",N/A,N/A,N/A,"WJCW+65 Attleboro, Massachusetts",(508) 930-7752
+Vision Construction & Design,5.0,22,Construction company,"50 Grand Army of the Republic Hwy, Swansea, MA 02777",N/A,N/A,visioncd.net,"PRR6+CG Swansea, Massachusetts",(508) 840-0189
+Miller's Pro Roofing & Siding,4.9,64,Siding contractor,"105 E Falmouth Hwy, East Falmouth, MA 02536",N/A,N/A,millersproroofingandsiding.com,"HCHJ+94 East Falmouth, Falmouth, MA",(774) 245-6455
+Harding Builders,N/A,N/A,General contractor,"297 Neck Rd, Rochester, MA 02770",N/A,N/A,hardingbuilders.net,"Q5C2+XJ Rochester, Massachusetts",(774) 263-2786
+Haworth's Property Services LLC,3.9,7,General contractor,"3 Arsene St, Fairhaven, MA 02719",N/A,N/A,facebook.com,"J4RF+38 Fairhaven, Massachusetts",(508) 996-6844
+Jeffrey Willette Exterior Remodeling,3.0,10,Roofing contractor,"40 Diniz Dr, Raynham, MA 02767",N/A,N/A,jeffreyswillette.com,"WWVW+CX Raynham, Massachusetts",(781) 335-3636
+CK Finishing Work,N/A,N/A,Construction company,"484 Joseph Dr, Fall River, MA 02720",N/A,N/A,N/A,"PVMP+R7 Fall River, Massachusetts",(774) 319-9690
+Sears Heating and Air Conditioning,4.6,73,Air conditioning contractor,"133 Mariano Bishop Blvd, Fall River, MA 02721",Located in: Fall River Shopping Center,N/A,searshomeservices.com,"MRGP+G2 Fall River, Massachusetts",(508) 343-8745
+L. Enos Restorations - Roofing - Renovations - Siding,5.0,2,Roofing contractor,"571 Thomas B Landers Rd, East Falmouth, MA 02536",N/A,N/A,N/A,"J98V+75 East Falmouth, Falmouth, MA",(508) 566-5255
