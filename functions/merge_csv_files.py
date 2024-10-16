@@ -56,6 +56,7 @@ def merge_complementary_rows(state, niche):
 
     # Iterate through each row
     for i, row in df.iterrows():
+        print(row)
         if i in processed_indices:
             continue
 
@@ -234,17 +235,32 @@ def process_thumbtack_data(df):
         'Source': 'Thumbtack'
     })
 
+def split_name(full_name):
+    parts = full_name.split()
+    if len(parts) == 1:
+        return parts[0], ""
+    elif len(parts) == 2:
+        return parts[0], parts[1]
+    else:
+        return parts[0], " ".join(parts[1:])
+
 def process_yelp_data(df, state):
     def safe_zip_lookup(zip_code):
         if pd.isna(zip_code):
             return pd.NA, pd.NA, pd.NA
         try:
-
             return get_data_zipcoded(str(zip_code), extract_zip=True)
         except:
             return pd.NA, pd.NA, pd.NA
 
     df['city'], df['county'], df['state'] = zip(*df['location_zip_code'].apply(safe_zip_lookup))
+
+    # Split the owner name if available
+    if 'owner_name' in df.columns:
+        df['Owner First Name'], df['Owner Last Name'] = zip(*df['name'].fillna('').apply(split_name))
+    else:
+        df['Owner First Name'] = pd.NA
+        df['Owner Last Name'] = pd.NA
 
     return pd.DataFrame({
         'Category': df['categories'].fillna('').astype(str),
@@ -256,8 +272,8 @@ def process_yelp_data(df, state):
         'Site Rating': pd.NA,
         'Reviews': df['review_count'].fillna(pd.NA).astype('Int64'),
         'Rating': df['rating'].fillna(pd.NA).astype(float),
-        'Owner First Name': pd.NA,
-        'Owner Last Name': pd.NA,
+        'Owner First Name': df['Owner First Name'],
+        'Owner Last Name': df['Owner Last Name'],
         'Owners Cel #': pd.NA,
         'Owners Phone #': pd.NA,
         'Personal Email': pd.NA,
@@ -589,7 +605,7 @@ def process_scraped_email_data(df):
 #merge_complementary_rows(state="Massachusetts", niche="Marble & Granite")
 
 # After ma_sec or get_company_info
-#merge_csv_files(state="Massachusetts", niche="Counter Top", stage=3)
+#merge_csv_files(state="Massachusetts", niche="Marble & Granite", stage=5)
 
 # After social_google_search and get_heritage
 # merge_csv_files(state, niche, 3)

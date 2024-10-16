@@ -156,7 +156,7 @@ async def ma_sec(niche, state):
             writer = csv.writer(outfile)
             writer.writerow(headers + ['Owner First Name', 'Owner Last Name'])
 
-    num_workers = 10
+    num_workers = 20
     batch_size = len(unique_rows) // num_workers
     batches = [unique_rows[i:i + batch_size] for i in range(0, len(unique_rows), batch_size)]
 

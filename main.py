@@ -5,7 +5,7 @@ from datetime import datetime
 
 import google
 from google.api_core.exceptions import ResourceExhausted
-from functions.export_maps_gs import export
+from functions.export_maps_gs import export, export_filtered
 from functions.get_sheet_data import get_states, get_niches
 from functions.google_search import social_google_search
 from functions.ma import ma_sec
@@ -65,6 +65,10 @@ async def wrapped_get_heritage(*args, **kwargs):
 @log_execution
 async def wrapped_export(*args, **kwargs):
     return export(*args, **kwargs)
+
+@log_execution
+async def wrapped_export_filtered(*args, **kwargs):
+    return export_filtered(*args, **kwargs)
 
 @log_execution
 async def wrapped_thumbtack_scraper(*args, **kwargs):
@@ -139,10 +143,11 @@ async def main():
         logging.info(f"Processing state: {state}, X: {x}, Y: {y}")
         for niche in niches:
             logging.info(f"Processing niche: {niche}")
-
+            # if niche == "Marble & Granite":
+            #     continue
 
             group1 = [
-                run_with_retries(wrapped_thumbtack_scraper, state, niche),
+
                 run_with_retries(wrapped_scrape_yelp, state, niche),
                 run_with_retries(wrapped_maps_scrape, niche, x, y, state),
                 run_with_retries(wrapped_run_bbb_scraper, niche, state)
@@ -161,7 +166,7 @@ async def main():
             merge_csv_files(state, niche, 2)
 
             # Group 3
-            await run_with_retries(wrapped_social_google_search, state, niche, max_workers=10)
+            await run_with_retries(wrapped_social_google_search, state, niche, max_workers=20)
 
             # Merge after Group 3
             merge_csv_files(state, niche, 3)
@@ -175,7 +180,7 @@ async def main():
             # Group 5
             group5 = [
                 run_with_retries(wrapped_main_scraper_anywho, state, niche),
-
+                run_with_retries(wrapped_scrape_facebook, state, niche),
                 run_with_retries(wrapped_get_linkedin_emails, niche, state)
             ]
             await asyncio.gather(*group5)
@@ -185,6 +190,7 @@ async def main():
             merge_complementary_rows(state, niche)
             await run_with_retries(wrapped_export, niche, state)
 
+            await run_with_retries(wrapped_export_filtered, niche, state)
     logging.info("Script completed.")
 
 if __name__ == "__main__":

@@ -33,9 +33,8 @@ async def verify_proxy(proxy):
 async def get_verified_proxy(proxies):
     while True:
         proxy = random.choice(proxies)
-        if await verify_proxy(proxy):
-            return proxy
-        print(f"Proxy {proxy['ip']}:{proxy['port']} failed verification, trying another...")
+        return proxy
+
 
 
 async def load_progress(PROGRESS_FILE_PATH):
@@ -272,10 +271,43 @@ async def process_niche_zip(niche, zip_code, progress, OUTPUT_FILE_PATH, PROGRES
 
 
 async def thumbtack_scraper(state, niche):
-
-
     print(datetime.now())
+    PROGRESS_FILE_PATH = fr'C:\Users\Sage\PycharmProjects\MasterScraper\data\scraping_{state}_{niche}_progress_tt.txt'
+    OUTPUT_CSV_PATH = fr'C:\Users\Sage\PycharmProjects\MasterScraper\data\df_{state}_{niche}_thumbtack.csv'
+    MAX_WORKERS = 1
+    progress = await load_progress(PROGRESS_FILE_PATH)
 
+    # Load Zip Codes
+    with open(fr'C:\Users\Sage\PycharmProjects\MasterScraper\data/zip_codes/{state}_zip_codes.txt', 'r') as file:
+        list_zip_codes = [v.strip() for v in file.readlines()]
+
+    print(f"Loaded {len(list_zip_codes)} zip codes for {state}")
+
+    tasks = set()
+    completed_tasks = 0
+
+    for zip_code in list_zip_codes:
+        if len(tasks) >= MAX_WORKERS:
+            # Wait for at least one task to complete before adding a new one
+            done, tasks = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+            for task in done:
+                await task  # Ensure any exceptions are raised
+                completed_tasks += 1
+                print(f"Completed task {completed_tasks}/{len(list_zip_codes)}")
+
+        task = asyncio.create_task(process_niche_zip(niche, zip_code, progress, OUTPUT_CSV_PATH, PROGRESS_FILE_PATH))
+        tasks.add(task)
+        print(f"Created task for zip code: {zip_code}")
+
+    # Wait for all remaining tasks to complete
+    if tasks:
+        print(f"Waiting for {len(tasks)} remaining tasks to complete...")
+        await asyncio.wait(tasks)
+        completed_tasks += len(tasks)
+        print(f"All tasks completed. Total: {completed_tasks}/{len(list_zip_codes)}")
+
+    print(f"End time: {datetime.now()}")
+    print("Thumbtack scraper completed successfully")
 
 if __name__ == "__main__":
     asyncio.run(thumbtack_scraper())

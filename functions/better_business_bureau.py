@@ -9,11 +9,12 @@ from playwright.async_api import async_playwright, Playwright, Page, TimeoutErro
 from functions.useful import verify_proxy, get_random_proxy, parse_proxy_file, get_state_abbreviations
 
 async def bbb_scraper(niche, state):
+    print("WORKING")
     PROXY_FILE_PATH = r'C:\Users\Sage\PycharmProjects\MasterScraper/proxies/proxies.txt'
     CSV_FILE_PATH = r'C:\Users\Sage\PycharmProjects\MasterScraper\data\geodata\all_us_cities.csv'
-    PROGRESS_FILE_PATH = r'C:\Users\Sage\PycharmProjects\MasterScraper\data\scraping_progress.json'
+    PROGRESS_FILE_PATH = r'C:\Users\Sage\PycharmProjects\MasterScraper\data\scraping_progress_bbb.json'
     OUTPUT_CSV_PATH = fr'C:\Users\Sage\PycharmProjects\MasterScraper\data\scraped_data_bbb_{niche}_{state}.csv'
-    MAX_WORKERS = 10
+    MAX_WORKERS = 15
 
     async def get_verified_proxy(proxies):
         while True:

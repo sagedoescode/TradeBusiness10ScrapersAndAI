@@ -222,7 +222,7 @@ async def social_google_search(state, niche, max_workers):
 async def main():
     state = "Massachusetts"
     niche = "Marble & Granite"
-    max_workers = 5  # You can adjust this number based on your system's capabilities
+    max_workers = 15  # You can adjust this number based on your system's capabilities
 
     await social_google_search(state, niche, max_workers)
 

@@ -64,7 +64,7 @@ async def dismiss_dialog(page):
 
 async def extract_emails(url, row, output_file, progress_set, website, PROXY_FILE_PATH, PROGRESS_FILE_PATH):
     if website == 'facebook':
-        MAX_RETRIES = 10
+        return False
     else:
 
         MAX_RETRIES = 2
@@ -190,7 +190,7 @@ async def scrape_websites_general_facebook_email(state, niche):
     INPUT_CSV_PATH = fr'C:\Users\Sage\PycharmProjects\MasterScraper\data\{state}_{niche}_central_stage_4.csv'
     OUTPUT_CSV_PATH = fr'C:\Users\Sage\PycharmProjects\MasterScraper/data/{state}_{niche}_scraped_emails.csv'
     PROGRESS_FILE_PATH = fr'C:\Users\Sage\PycharmProjects\MasterScraper\data\{state}_{niche}_scraping_emails_progress.txt'
-    MAX_WORKERS = 12
+    MAX_WORKERS = 20
     total_links = 0
     processed_links = 0
 

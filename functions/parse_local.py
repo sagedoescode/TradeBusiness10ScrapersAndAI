@@ -59,19 +59,18 @@ async def process_row(row, writer, text_generation_pipeline):
     owner_last_name = row.get('Owner Last Name', '').strip() if row.get('Owner Last Name') else ''
     full_name = f"{owner_first_name} {owner_last_name}".strip()
 
-    assumed_heritage = row.get("Language", "").strip() if row.get("Language") else ""
-
-    if full_name and assumed_heritage == "":
-        print(f"Processing: {full_name}")
-        try:
-            heritage = await get_nationality(full_name, text_generation_pipeline)
-            row["Language"] = heritage
-            print(f"Name: {full_name}, Heritage: {heritage}")
-        except Exception as e:
-            print(f"An unexpected error occurred: {str(e)}")
-            row["Language"] = ""
+    if row.get("Language", "").strip() == "":
+        if full_name:
+            print(f"Processing: {full_name}")
+            try:
+                heritage = await get_nationality(full_name, text_generation_pipeline)
+                row["Language"] = heritage
+                print(f"Name: {full_name}, Heritage: {heritage}")
+            except Exception as e:
+                print(f"An unexpected error occurred: {str(e)}")
+                row["Language"] = ""
     else:
-        row["Language"] = assumed_heritage
+        print(f"Skipping {full_name} as Language is already populated: {row['Language']}")
 
     writer.writerow(row)
 

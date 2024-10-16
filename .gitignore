@@ -4,3 +4,6 @@ creds/silken-fortress-437421-i2-fd7554a38271.json
 creds/verdant-coyote-430500-j4-ef1fad885b23.json
 chromedriver.exe
 functions/creds/verdant-coyote-430500-j4-ef1fad885b23.json
+/profiles
+/functions/__pycache__
+*.pyc

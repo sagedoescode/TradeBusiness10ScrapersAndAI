@@ -391,4 +391,4 @@ async def linkedin_email_get(niche, state):
     print(f"Rows with email found: {rows_with_email}")
     print(f"Percentage of rows with email: {rows_with_email / total_rows * 100:.2f}%")
 if __name__ == "__main__":
-    asyncio.run(linkedin_email_get("Roofing", "massachusetts"))
+    asyncio.run(linkedin_email_get("Marble & Granite", "massachusetts"))

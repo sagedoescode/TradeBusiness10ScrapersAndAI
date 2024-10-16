@@ -10,7 +10,7 @@ import aiohttp
 from playwright.async_api import async_playwright
 from functions.useful import clean_text, get_sleep_interval, get_random_proxy, parse_proxy_file, get_state_abbreviations
 
-MAX_WORKERS = 10
+MAX_WORKERS = 15
 async def verify_proxy(proxy):
     proxy_url = f"http://{proxy['username']}:{proxy['password']}@{proxy['ip']}:{proxy['port']}"
     async with aiohttp.ClientSession() as session:
